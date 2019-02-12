@@ -1,0 +1,74 @@
+=== Linear spaces ===
+V is a linear space if it follows the following rules:
+- Commutativity
+- Associativity
+- There is an element "0" such that a+0 = a 
+- There is an "inverse" element -a such that a+ (-a) = 0
+- 1*a = a
+- λ(μa) = (λμ)a   
+- λ(a + b) = λa + λb
+- (λ + μ)a = λa + μa
+
+=== Subspace of a linear space ===
+*U* is a subspace 
+V is a linear space
+A non empty set U ⊂ V is called a subspace if:
+* x,y ∈ U -> x - y ∈ U
+* x ∈ U, λ ∈ R -> λx ∈ U
+
+*Notation: U ≤ V*
+==== Properties of Subspace ====
+*Define* :Span:
+---- Definition of Span is confusing: Read online
+
+=== Generating linear spaces ===
+* If there is a set of vectors called (bᵢ) and the linear span of that set of vectors generates the whole linear space V, then the (bᵢ) is called as the generating set.
+* *Example* e₁ = [1 0 0] e₂ = [0 1 0] e₃ = [0 0 1]. Then {e₁,e₂,e₃} generates R³. {}{e₁+e₂,e₂+e₃,e₃} also generates R³ because they have all the 3 elements? But however just {e₁, e₂} doesnt generate R³
+
+=== Coordinate system and bases ===
+* Linear independence:
+A finite set of vectors can be called *linearly independent* if 
+λ₁a +.....+ λᵢaᵢ = 0 => λ₁ = λ₂ = ... = λᵢ = 0
+
+Usage? : Find online
+
+=== Basis ===
+* A set of vectors in V is called the basis of V if, it's the generating set *and* it is linearly independent. 
+
+Usage: Find online
+
+==== Properties of Basis ====
+* every linear space V has a Basis
+* Let b₁ , ...bᵢ be the basis of V, then every a ∈ V can be written as a linear combination as 
+  *a = Σ λᵢbᵢ*
+* Every basis in V has *exactly n* elements in it. 
+  This *n* is called as the *dimension* of V
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Subspaces and linear spans
+* Linear mappings and matrices
+* Linear systems and matrices
+* Lengths, distances and angles
+* Solving linear systems. CT
+* Orthogonality
+* Special matrices and solving linear systems
+* Singular value decomposition
+* Least squares problems
+* Eigenvalue problems

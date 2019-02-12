@@ -1,0 +1,5 @@
+== Prashanth == 
+
+=== Study ===
+1. WS18
+* [[BMT]]: Basic Math tools for Imaging and Visualization 

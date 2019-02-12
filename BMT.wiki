@@ -1,0 +1,31 @@
+* [[Linear Algebra]]
+* Analysis
+* Metric spaces
+	* Topology in metric spaces
+	* Convergence and compactness
+	* Continuity
+	* Differentiability
+	  * Partial derivatives
+		* Total derivatives
+		* Subdifferentials
+	* Taylor expansion
+	* Case study
+* Optimization
+  * Existence of a minimizer
+	* Uniqueness of a minimizer
+	* Identifying local minima
+	* Gradient descent
+	* Conjugate gradient
+	* CG variants
+	* Tikhonov regularization
+	* Newton method
+	* Case study
+	* Fixed point iteration
+* Probability Theory
+  * Basics of probability
+	* Random variables
+	* Expectation
+	* Conditional expectation
+	* Estimators
+	* Expectation maximization
+	* EM in emission tomography
