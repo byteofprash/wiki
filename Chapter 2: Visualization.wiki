@@ -1,0 +1,3 @@
+= Visualization =
+_NOTE_ : Just some theory that has to be mugged up
+Lie factor = (size of effect shown in graphic/ size of effect in data)

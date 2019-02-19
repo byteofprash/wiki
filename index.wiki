@@ -1,5 +1,8 @@
 == Prashanth == 
 
 === Study ===
-1. WS18
+1. WS18: Semester 5
 * [[BMT]]: Basic Math tools for Imaging and Visualization 
+* [[PCV]]: Principles of Computer Vision 
+* [[Sci Visualization]]: Scientific Visualization
+* [[Thesis]]: Thesis

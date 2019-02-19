@@ -1,0 +1,59 @@
+
+=== Lecture 3 : Mirrors and Lenses=== 
+1. Ray tracing is using mirrors instead of Lenses to magnify or reduce an image. 
+	 This works with reflection as a theory
+2. Spherical Lenses : This works with Refraction.
+	 The reason why lenses are able to maginify is because light travels faster in AIR but in glass they travel slower. When they travel slower, they tend to bend towards the normal.
+	 *Convex* : in a convex mirror has a convex surface, the parallel rays converge towards one another. They are called "converging" rays
+	 *Concave* : in a concave mirror has a concave surface, the parallel rays converge towards one another. They are called "diverging" rays
+
+Then the light emerges from the convex lens, the light moves from slow medium to a fast medium. Here it bends away from the normal
+
+1. Lenses are curved on both sides, hence they are either bi-convex or bi-concave
+2. However mirrors are curved only on one side, and the other side is flat and straight.
+3. *Focal point* : The point where the rays converge from the convex lens
+4. *Focal Length(f)* : The distance between the lens to the focal point. The focal point is the same for a given lens
+5. A lens has 2 focal points, one before and one after the lens
+6. *Thin lens* : Thin lenses are those whose thickness are lesser than the focal length
+7. To differentiate between the converging and diverging lens, the *f* is *positive* for converging and *negative* for diverging lens
+8. Rules of a converging lens*
+		* Rule 1: Incoming parallel rays are deflected through the focal point
+		* Rule 2: Rays passing through the center of the lens are undeflected. They continue to travel straight without being bent
+		* Rule 3: Rays passing through the focal point(entry focal point) are deflected to exit parallel rays
+9. For converging lenses, the image is *real* and *inverted*. The Size of the image is relative to the position of the object to the focal point. 
+10. If the object is very close to the lens (even lesser than the focal length), then the rays passing through the lens are diverging and will never intersect on the other side of the lens
+11. *Diverging lens*:
+				1. In diverging lens, parallel rays are deflected such that when extended backwards, they seem to appear to have come from the focal point.
+				2. Just like the converging lens, the rays that pass through the center, pass without any deflection
+				3. Rays that if extended would pass through the focal point on the other side, would be deflected parallel to the axis
+				4. Image is *Virtual*, *reduced*, and *Right side up*
+==== Lens Equation: ====
+1. Some defintions:
+				1. Object distance: 
+					 * *positive* : If object is on the  left side. 
+					 * *Negative*:   For all the reverse. 
+				2. Image distance: 
+					 * *Positive*: Real image.
+					 * *Negative*: Virtual image.
+*Symbols* :
+xₒ: Object distance -> Negative: Right side. Positive: Left side
+xᵢ: Image distance  -> Negative: Virtual Image. Positive: Real image
+f : Focal distance  -> Negative: Diverging lens. Positive: Converging lens
+Sₒ: Object size     -> Negative: Below the axis. Positive: Above the axis
+Sᵢ: Image size      -> Negative: Below the axis. Positive: Above the axis
+M : Magnification   -> Negative: Inverted image. Positive: Not inverted image
+P : Power of lens.  -> Negative: diverging lens(f negative) Positive: Converging lens(f positive)
+
+Note: The lens equation is used for :
+* Calculating the image location
+* Calculating the maginification
+*Formulae*:
+1. 1/xₒ + 1/xₒ = 1/f
+2. M  = Sᵢ/Sₒ = -xᵢ/xₒ
+3. P = 1/f(in meters)
+
+===== Lens equation for multiple lenses =====
+The lens equation can also be applied for multiple lenses added one after the other. 
+* power is added. Eg: Power of lens A is 2 diopters. Power of lens B is -1 diopters. Power of combined lenses is 2 -1 diopters = 1 diopter. Focal length of combined lens is f = 1 meter
+* The output(image) of the lens 1, acts as the object for the lens 2
+_NOTE:  I really wish I see an example for this_

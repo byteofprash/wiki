@@ -1,0 +1,8 @@
+= Data =
+_NOTE_ : Again, mostly theory with some notations to remember
+Independent Vars:  Dimension of the domain of the problem
+Eg: 2D/3D space, time. *notation*: Rⁿ
+Dependent Vars: Type and Dimension of the data to be visualized
+Eg: Temperature, density, values...  *notation* Rm
+
+

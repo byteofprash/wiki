@@ -1,0 +1,27 @@
+
+
+# what are the overall goals of the thesis
+
+1. Cleaning the data and converting the DICOM to nifti. Product 1 : _DONE_ 
+2. Feeding the data to Btrflynet and generating outputs _DONE_
+3. Converting BtrflyNet to python3.0 _DONE_
+4. An analysis on the possible diseases that could arise out of the spinal cord was studied. _DONE_
+5. Trying to correct the centroids of the output from Btrflynet: _DONE_
+	1. Approach 1: Correcting by finding peak signals along the vertebra _DONE_
+					1. Status: *Discontinued*
+					2. Notes: The correction on Coronal view is possible, however there is considerable abberations due to the presence of "Spinous process"
+					3. outcome: Correction only along one direction possible, hence stopped
+	2. Approach 2: Correcting the centroids using a neural network which is trained on the vertebrae. _INPROGRESS_ TODO 15-Mar-2019
+	   * A tool to view the dataset by vetebra  Time: _INPROGRESS_   TODO: 22-FEB-2019
+		 * A dataset of 56 patients with 3 views has to be annotated. TODO: 22-FEB-2019
+		 * A 3 arm based neural network to be built to do a regression on the actual centroid point.
+				* Version 1: *Basic*. Running neural network. Bad results. But some results   TODO: 1-Mar-2019   
+							 * Setup the environment
+							 * Learn Pytorch basics and get familiar
+				* Version 2: *Intermediate*. Running neural network. Decent results.TODO:  8-Mar-2019
+				* Version 3: *Final*. Final working neural network which would be used for plotting the cobb angle. Cosmetic changes after this TODO:15-Mar-2019
+6. The corrected centroids would be joined in forumlating the "Cobb's angle" to quantify scoliosis TODO: 22-Mar-2019
+7. The scoliosis pipeline is deployed on a server with multiple patients in them with the help of product 
+8. Writing of the thesis. 
+9. Preparing the presentation of the thesis and defending it. 
+10. 

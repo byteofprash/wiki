@@ -1,0 +1,13 @@
+
+=== lecture 1: Introduction ===
+* Feature Extraction
+  - Kernels are used to extract features
+  - Thresholding is used to supress "non-feature" parts of the images, as the kernel "doesn't see" them.
+* Problems in CV:
+	* *Stereo Vision* : From multiple images -> Determine geometry of the scene, by *matching* the corresponding areas. Eg: Using SIFT or something. 
+	* *Motion estimation* What if something moved between two frames where we are trying to match
+	* *Point spread function* Read more online
+	* Cepstrum: Gaussian smoothing?
+	*  The motion field: The motion field 
+		 
+
