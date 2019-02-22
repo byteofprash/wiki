@@ -1,0 +1,8 @@
+%date
+19-FEB-2019
+
+= TODO =
+- [ ] Create a data loader
+- [ ] Create visualization for single patient
+- [ ] 
+

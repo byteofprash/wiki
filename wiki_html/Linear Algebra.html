@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Linear Algebra</title>
+    <link rel="Stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/google-code-prettify/prettify.css" >
+    <!-- add more style sheets and javascripts -->
+</head>
+<body>
+<!--<body onload="prettyPrint()">-->
+<nav>
+    <a href="index.html">Index</a>
+    <a href="about.html">About</a>
+    <a href="https://lotabout.github.io">Blog</a>
+    <a href="sitemap.html">SiteMap</a>
+</nav>
+
+<div class="content">
+
+<div id="Linear spaces"><h3 id="Linear spaces">Linear spaces</h3></div>
+<p>
+V is a linear space if it follows the following rules:
+</p>
+<ul>
+<li>
+Commutativity
+
+<li>
+Associativity
+
+<li>
+There is an element "0" such that a+0 = a 
+
+<li>
+There is an "inverse" element -a such that a+ (-a) = 0
+
+<li>
+1*a = a
+
+<li>
+λ(μa) = (λμ)a   
+
+<li>
+λ(a + b) = λa + λb
+
+<li>
+(λ + μ)a = λa + μa
+
+</ul>
+
+<div id="Subspace of a linear space"><h3 id="Subspace of a linear space">Subspace of a linear space</h3></div>
+<p>
+<span id="Subspace of a linear space-U"></span><strong id="U">U</strong> is a subspace 
+V is a linear space
+A non empty set U ⊂ V is called a subspace if:
+</p>
+<ul>
+<li>
+x,y ∈ U -&gt; x - y ∈ U
+
+<li>
+x ∈ U, λ ∈ R -&gt; λx ∈ U
+
+</ul>
+
+<p>
+<span id="Subspace of a linear space-Notation: U ≤ V"></span><strong id="Notation: U ≤ V">Notation: U ≤ V</strong>
+</p>
+<div id="Subspace of a linear space-Properties of Subspace"><h4 id="Properties of Subspace">Properties of Subspace</h4></div>
+<p>
+<span id="Subspace of a linear space-Properties of Subspace-Define"></span><strong id="Define">Define</strong> <span id="Subspace of a linear space-Properties of Subspace-Span"></span><span class="tag" id="Span">Span</span>
+---- Definition of Span is confusing: Read online
+</p>
+
+<div id="Generating linear spaces"><h3 id="Generating linear spaces">Generating linear spaces</h3></div>
+<ul>
+<li>
+If there is a set of vectors called (bᵢ) and the linear span of that set of vectors generates the whole linear space V, then the (bᵢ) is called as the generating set.
+
+<li>
+<span id="Generating linear spaces-Example"></span><strong id="Example">Example</strong> e₁ = [1 0 0] e₂ = [0 1 0] e₃ = [0 0 1]. Then {e₁,e₂,e₃} generates R³. {}{e₁+e₂,e₂+e₃,e₃} also generates R³ because they have all the 3 elements? But however just {e₁, e₂} doesnt generate R³
+
+</ul>
+
+<div id="Coordinate system and bases"><h3 id="Coordinate system and bases">Coordinate system and bases</h3></div>
+<ul>
+<li>
+Linear independence:
+
+</ul>
+<p>
+A finite set of vectors can be called <span id="Coordinate system and bases-linearly independent"></span><strong id="linearly independent">linearly independent</strong> if 
+λ₁a +.....+ λᵢaᵢ = 0 =&gt; λ₁ = λ₂ = ... = λᵢ = 0
+</p>
+
+<p>
+Usage? : Find online
+</p>
+
+<div id="Basis"><h3 id="Basis">Basis</h3></div>
+<ul>
+<li>
+A set of vectors in V is called the basis of V if, it's the generating set <span id="Basis-and"></span><strong id="and">and</strong> it is linearly independent. 
+
+</ul>
+
+<p>
+Usage: Find online
+</p>
+
+<div id="Basis-Properties of Basis"><h4 id="Properties of Basis">Properties of Basis</h4></div>
+<ul>
+<li>
+every linear space V has a Basis
+
+<li>
+Let b₁ , ...bᵢ be the basis of V, then every a ∈ V can be written as a linear combination as 
+  <span id="Basis-Properties of Basis-a = Σ λᵢbᵢ"></span><strong id="a = Σ λᵢbᵢ">a = Σ λᵢbᵢ</strong>
+
+<li>
+Every basis in V has <span id="Basis-Properties of Basis-exactly n"></span><strong id="exactly n">exactly n</strong> elements in it. 
+  This <span id="Basis-Properties of Basis-n"></span><strong id="n">n</strong> is called as the <span id="Basis-Properties of Basis-dimension"></span><strong id="dimension">dimension</strong> of V
+
+</ul>
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul>
+<li>
+Subspaces and linear spans
+
+<li>
+Linear mappings and matrices
+
+<li>
+Linear systems and matrices
+
+<li>
+Lengths, distances and angles
+
+<li>
+Solving linear systems. CT
+
+<li>
+Orthogonality
+
+<li>
+Special matrices and solving linear systems
+
+<li>
+Singular value decomposition
+
+<li>
+Least squares problems
+
+<li>
+Eigenvalue problems
+
+</ul>
+
+</div>
+
+<hr class="comment">
+
+   
+</section>
+
+<footer>
+    Prashanth Swaminathan
+</footer>
+
+
+    <script src="assets/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('pre').addClass('prettyprint linenums') 
+        prettyPrint()})
+    </script>
+    <script src="assets/google-code-prettify/prettify.js"></script>
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
+

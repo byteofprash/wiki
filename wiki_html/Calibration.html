@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calibration</title>
+    <link rel="Stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/google-code-prettify/prettify.css" >
+    <!-- add more style sheets and javascripts -->
+</head>
+<body>
+<!--<body onload="prettyPrint()">-->
+<nav>
+    <a href="index.html">Index</a>
+    <a href="about.html">About</a>
+    <a href="https://lotabout.github.io">Blog</a>
+    <a href="sitemap.html">SiteMap</a>
+</nav>
+
+<div class="content">
+
+
+<div id="Calibration"><h1 id="Calibration">Calibration</h1></div>
+<ol>
+<li>
+equation of projection
+
+<ul>
+<li>
+Cartesian coordinates:
+  (x,y,z) -&gt; (f*x/z,f*y/z)
+
+</ul>
+</ol>
+
+<hr />
+	
+<ol>
+<li>
+The Camera matrix
+
+</ol>
+<p>
+The camera matrix represents the projection of the 3D points in the world to the 2D points in an image.
+ y ~ Cx
+ y : Representation of the image (A 3D vector Homogeneous coordinates)
+ x : Representation of the 3D point (A 4D vector Homogeneous coordinates)
+ C : Camera Matrix 
+ ~ sign implies that the left and right hand sides are equal up to a non-zero scalar multiplication.
+</p>
+
+<p>
+[y₁]  [1 0 0   0] [x₁]
+[y₂] ~[0 1 0   0] [x₂]
+[1 ]  [0 0 1/f 0] [x₃]
+</p>
+<blockquote>
+[1 ]
+</blockquote>
+
+<hr />
+
+<ol>
+<li>
+Orthographic projection:
+
+</ol>
+<p>
+Orthographic projection is a means of representing a 3D object in 2D with parallel lines. These parallel lines are orthographic to the projection plane
+</p>
+
+<p>
+[u]  [1 0 0 0][x]
+[v] =[0 1 0 0][y] 
+[w]  [0 0 0 1][z]
+</p>
+<blockquote>
+[T]
+</blockquote>
+
+<hr />
+							
+<ol>
+<li>
+Weak perspective projection:
+
+</ol>
+<p>
+A weak perspective projection is similar to the orthographic projection, but includes the scaling factor, thus closer objects appear bigger and vice cersa. 
+</p>
+
+
+<p>
+[u]  [1 0 0 0   ][x]
+[v] =[0 1 0 0   ][y] 
+[w]  [0 0 0 Z*/f][z]
+</p>
+<blockquote>
+[T]
+</blockquote>
+
+<hr />
+
+<ol>
+<li>
+Types of lenses: Typically classifd by the curvature of the two optical surfaces. 
+
+<ol>
+<li>
+<span id="Calibration-Biconvex"></span><strong id="Biconvex">Biconvex</strong>: Double side convex
+
+<li>
+<span id="Calibration-Biconcave"></span><strong id="Biconcave">Biconcave</strong>: Double side concave
+
+<li>
+<span id="Calibration-Plano Convex"></span><strong id="Plano Convex">Plano Convex</strong>: one side convex, other side is flat
+
+<li>
+<span id="Calibration-Plano Concave"></span><strong id="Plano Concave">Plano Concave</strong>: one side concave, other side is flat
+
+<li>
+<span id="Calibration-Positive meniscus"></span><strong id="Positive meniscus">Positive meniscus</strong>: One side convex, one side concave. But convex side is steeper.
+
+<li>
+<span id="Calibration-Negative meniscus"></span><strong id="Negative meniscus">Negative meniscus</strong>: One side convex, one side concave. But concave side is steeper.
+
+</ol>
+</ol>
+
+<hr />
+
+<ol>
+<li>
+Camera parameters:
+
+</ol>
+
+<ol>
+<li>
+<span id="Calibration-Intrinsic Parameters"></span><strong id="Intrinsic Parameters">Intrinsic Parameters</strong>
+
+</ol>
+<p>
+f: Focal length
+Sₓ, Sy: pixels
+k₁,k₂: Distortion Coeffecients
+oₓ,oy: Image center
+</p>
+
+</div>
+
+<hr class="comment">
+
+   
+</section>
+
+<footer>
+    Prashanth Swaminathan
+</footer>
+
+
+    <script src="assets/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('pre').addClass('prettyprint linenums') 
+        prettyPrint()})
+    </script>
+    <script src="assets/google-code-prettify/prettify.js"></script>
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
+

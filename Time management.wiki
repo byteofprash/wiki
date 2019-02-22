@@ -1,4 +1,49 @@
 
+=== Time management ===
+Overall goal is to write, submit and finish the thesis before : *15-May-2019*
+
+=== Some major deadlines to consider ===
+| tno | Task                             | Subtask                                         | Subtask: Dealine | Task: Deadline | Comments/Notes      | Duration |
+|-----|----------------------------------|-------------------------------------------------|------------------|----------------|---------------------|----------|
+| 1   | Creation of the annotation tool  | 1. Looping over patients                        | 21.02.2019       | _22.02.2019_   |                     |          |
+|     |                                  | 2. Cache: Having all patients scans in memory   | 22.02.2019       |                |                     |          |
+|     |                                  | 3. Solid structure to store the centroids       | 22.02.2019       |                |                     |          |
+|     |                                  |                                                 |                  |                |                     |          |
+| 2   | Creation of the new Scoliosis    | 1. Create the dataset of Niftis with metadata   | 21.02.2019       | _1.03.2019_    |                     |          |
+|     | datset                           | and create visualization                        |                  |                |                     |          |
+|     |                                  | 2. Remove the black patches                     | ~~~              |                |                     |          |
+|     |                                  | 3. Generate centroids for those vertebra        |                  |                | Depends on Malek    |          |
+|     |                                  | which were not found by the network             |                  |                | on how his pipeline |          |
+|     |                                  |                                                 |                  |                | _TODO_: Meet Malek  |          |
+|     |                                  | 4. Feed the vertebra through the annotation     | ~1.03.2019       |                |                     |          |
+|     |                                  | tool and generate training data. Along with     |                  |                |                     |          |
+|     |                                  | the previous dataset                            |                  |                |                     |          |
+| 3   | Creation of the training dataset |                                                 |                  |                |                     |          |
+|     | for the correction network       | 1. With the annotated data, cut them by         |                  |                |                     |          |
+|     |                                  | vertebra and create ground truth data           |                  |                |                     |          |
+|     |                                  | 2. Make sure the labels format is finalized     |                  |                |                     |          |
+|     |                                  | and created                                     |                  |                |                     |          |
+|     |                                  |                                                 |                  |                |                     |          |
+| 4   | Creating the correction network  | 1. Having the infrastructure setup and          |                  | _21.03.2019_   |                     |          |
+|     |                                  | environment done. eg: Pytorch. CUDA, GPU..      |                  |                |                     |          |
+|     |                                  | 2. Learn Pytorch. Do the tutorial exercises     |                  |                |                     |          |
+|     |                                  | 3. Create the *basic¹* version of the network   | 7.03.2019        |                |                     |          |
+|     |                                  | 4. Work and refine the network. *Intermediate²* | 14.03.2019       |                |                     |          |
+|     |                                  | 5. Work and refine the network. *Final³*        | 21.03.2019       |                |                     |          |
+|     |                                  |                                                 |                  |                |                     |          |
+| 5   | Using the corrected centroids to | 1. Figure out how to connect the correction     | 23.03.2019       | _29.03.2019_   |                     |          |
+|     | compute cobb's angle and detect  | network into the whole pipeline                 |                  |                |                     |          |
+|     | scoliosis                        | 2. create a cobb's angle calculation module     | 26.03.2019       |                |                     |          |
+|     |                                  | 3. Run the whole module end to end of the       | 29.03.2019       |                |                     |          |
+|     |                                  | dataset available                               |                  |                |                     |          |
+|     |                                  |                                                 |                  |                |                     |          |
+| 6   | Visualizations. Results.         | 1. Need to have data on what worked, how it     | ......           |                |                     |          |
+|     |                                  | worked, how much it worked.                     |                  |                |                     |          |
+|     |                                  |                                                 |                  |                |                     |          |
+| 7   | Write thesis                     | ....                                            | ....             | ....           | ....                | ...      |
+|     |                                  |                                                 |                  |                |                     |          |
+
+
 
 # what are the overall goals of the thesis
 
@@ -11,17 +56,28 @@
 					1. Status: *Discontinued*
 					2. Notes: The correction on Coronal view is possible, however there is considerable abberations due to the presence of "Spinous process"
 					3. outcome: Correction only along one direction possible, hence stopped
-	2. Approach 2: Correcting the centroids using a neural network which is trained on the vertebrae. _INPROGRESS_ TODO 15-Mar-2019
+	2. Approach 2: Correcting the centroids using a neural network which is trained on the vertebrae. _INPROGRESS_ TODO 21-Mar-2019
 	   * A tool to view the dataset by vetebra  Time: _INPROGRESS_   TODO: 22-FEB-2019
 		 * A dataset of 56 patients with 3 views has to be annotated. TODO: 22-FEB-2019
 		 * A 3 arm based neural network to be built to do a regression on the actual centroid point.
-				* Version 1: *Basic*. Running neural network. Bad results. But some results   TODO: 1-Mar-2019   
+				* Version 1: *Basic*. Running neural network. Bad results. But some results   TODO: 7-Mar-2019   
 							 * Setup the environment
 							 * Learn Pytorch basics and get familiar
-				* Version 2: *Intermediate*. Running neural network. Decent results.TODO:  8-Mar-2019
-				* Version 3: *Final*. Final working neural network which would be used for plotting the cobb angle. Cosmetic changes after this TODO:15-Mar-2019
+				* Version 2: *Intermediate*. Running neural network. Decent results.TODO:  14-Mar-2019
+				* Version 3: *Final*. Final working neural network which would be used for plotting the cobb angle. Cosmetic changes after this TODO:21-Mar-2019
 6. The corrected centroids would be joined in forumlating the "Cobb's angle" to quantify scoliosis TODO: 22-Mar-2019
 7. The scoliosis pipeline is deployed on a server with multiple patients in them with the help of product 
 8. Writing of the thesis. 
 9. Preparing the presentation of the thesis and defending it. 
-10. 
+
+
+
+
+
+
+
+
+
+
+
+

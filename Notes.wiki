@@ -1,0 +1,5 @@
+= Notes =
+
+== Scoliosis Pipeline steps ==
+1. Given a dataset, create a json file with the `create_dataset.py` script
+2. With the created pickeld json file use it to traverse patients.  
