@@ -9,10 +9,3 @@
 
 
 
-== Today ==
-=== Daily checklist ===
-
-- [ ] Daily checklist 
-- [ ] create a loading system 
-- [ ] Create visualization for one item
-

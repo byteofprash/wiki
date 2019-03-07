@@ -1,0 +1,13 @@
+== Mi 6. Mär 11:37:20 CET 2019 == 
+
+== What to do ==
+1. Complete the annotation tool
+2. Think of a strategy to Cache files
+3. Figure out how to use Vimwiki diary
+
+== Musings ==
+1. Vim leader key has a lot of value. Make sure to use it extensively
+2. Added UltiSnips. Not sure how useful it's going to be, but remember using them back in college days
+3. Good progress on the new annotation tool
+4. Matplotlib is a real pain -> Very non intuitive
+

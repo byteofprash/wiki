@@ -1,8 +1,22 @@
 %date
 19-FEB-2019
 
-= TODO =
-- [ ] Create a data loader
-- [ ] Create visualization for single patient
-- [ ] 
+=== TODO ===
+- [o] Create a data loader
+- [o] Create visualization for single patient
+
+22-FEB-2019
+
+=== TODO ===
+[ ] Generate the visualizations
+[ ] create the 
+
+1-Mar-2019
+
+What should the centroid corrector do?
+1. One function to change the view from complete vert to a portion. 
+   
+   
+
+
 

@@ -1,0 +1,18 @@
+== Do 7. Mär 13:05:46 CET 2019==
+
+
+== What to do ==
+1. Book scotland visa
+2. Pay and fix appoitment
+3. Collect docs and take printout
+---------------
+1. Finish The annoation tool completely
+2. Figure what to do for caching
+3. Figure how to store the corrected centroids
+
+
+
+== Musings ==
+
+1. Done with amazing Annotation tool
+2. 
